@@ -12,3 +12,26 @@
 - have the option for types of games the streamer wants to allow for their chats
     - 
 - at the bottom there's a tug of war game, 
+
+## Basic Idea Diagram
+
+```mermaid
+stateDiagram-v2
+
+GameServer <--> Streamer A
+
+```
+
+
+## TODO List:
+
+### UI/Overlay 
+
+
+### Game Server
+#### Chat events
+ - [ ] get available emotes for each streamer's chat
+ - [ ] get each chat message for each streamer's chat
+
+#### Send events to each browser source
+
