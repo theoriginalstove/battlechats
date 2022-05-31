@@ -27,13 +27,22 @@ GameServer --> StreamerB
 
 ## TODO List:
 
+ - [ ] Registration: twitch login
+ - [ ] Game Creation/History
+
 ### UI/Overlay 
 
 
 ### Game Server
-#### Chat events
+#### Listen to Chat events
  - [ ] get available emotes for each streamer's chat
  - [ ] get each chat message for each streamer's chat
+ - [ ] Create a game room
+ - [ ] find a new opponent with chat commands `/battlechat matchmake`
+ 
 
-#### Send events to each browser source
+| chat command `matchmake`| => | gameServer initiates matchmaking |
+
+gameServer keeps list of game seekers
+gameServer should create a game room
 
