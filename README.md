@@ -18,8 +18,10 @@
 ```mermaid
 stateDiagram-v2
 
-GameServer <--> Streamer A
-
+GameServer --> StreamerA
+StreamerA --> GameServer
+StreamerB --> GameServer
+GameServer --> StreamerB
 ```
 
 
